@@ -1,0 +1,38 @@
+header {
+    grid-area: header;
+    background-color: map-get($colors, header-color);
+}
+
+//edicion nav de bs
+
+.nav-item-1 {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+.nav-item {
+    margin-right: 20px;
+}
+
+.container-fluid {
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+    .nav-item-1 {
+        margin-left: 0;
+    }
+
+    .navbar {
+        background-color: map-get($colors, header-color);
+        z-index: 1;
+    }
+}

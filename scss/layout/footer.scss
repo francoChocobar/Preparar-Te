@@ -1,0 +1,5 @@
+footer {
+    background-color: map-get($colors, footer-color);
+    grid-area: footer;
+    text-align: center;
+}
